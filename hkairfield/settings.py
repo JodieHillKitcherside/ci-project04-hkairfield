@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-lctk$!w0!&q@q^sxga4h0plrcv$jlzgb+*o0d3@dmznyp34bsx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-jodiehillkitcherside-ci-3ag8opwzzo.us2.codeanyapp.com', '.herokuapp.com']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'experiences',
 ]
 
 MIDDLEWARE = [
